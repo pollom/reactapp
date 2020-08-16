@@ -1,0 +1,10 @@
+CREATE DATABASE eventdb;
+
+CREATE TABLE eventapp (
+    id MEDIUMINT NOT NULL AUTO_INCREMENT,
+    firstname VARCHAR(35) NOT NULL,
+    lastname VARCHAR(35) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    ev_date VARCHAR(20) NOT NULL,
+    PRIMARY KEY (id)
+);
